@@ -1,0 +1,5 @@
+Line 1
+Line 2 is a little longer
+Line 3 is too
+This is the 4th line
+Last line in file

@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+from student import Student
+
+student1 = Student('John', '013454900')
+
+print(student1.name)
+print(student1.number)
+print(student1.courses)
+student1.displayStudent()
+
+student2 = Student('Jessica', '023384103')
+
+print(student2.name)
+print(student2.number)
+print(student2.courses)
+student2.displayStudent()
+
+student1.addGrade('uli101',4.0)
+student1.addGrade('ops235',4.0)
+student1.addGrade('ipc144',0.0)
+student2.addGrade('ios110',4.0)
+student2.addGrade('win210',3.0)
+student2.addGrade('win213',4.0)
+
+print(student1.name)
+print(student1.number)
+
+print(student2.name)
+print(student2.number)
+
+student1.displayGPA()
+student2.displayGPA()
+print(len(student1.name))
